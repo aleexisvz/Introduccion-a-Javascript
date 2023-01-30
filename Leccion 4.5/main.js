@@ -32,6 +32,7 @@ function maximo(montos) {
    return max;
 }
 
+// Esta funcion debe retornar el promedio de los montos entre el minimo y el maximo (excluyendolos)
 function promedio(min, max,donaciones) {
    var sum = 0;
    var cantidad = 0;
