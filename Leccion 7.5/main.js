@@ -11,6 +11,7 @@ function isValidDate(date) {
    return re.test(date);
 }
 
+// Comprueba que un número tenga 3 dígitos
 function onlyThreeDigits(number) {
    re = new RegExp("[0-9]{3}");
    return re.test(number);
